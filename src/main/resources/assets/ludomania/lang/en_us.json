@@ -1,0 +1,23 @@
+{
+  "itemGroup.ludomania": "Ludomania",
+  "block.ludomania.slot_machine": "Krutoban Slot Machine",
+  "block.ludomania.wheel_of_fortune": "Wheel of Fortune",
+  "item.ludomania.casino_chip": "Casino Chip",
+  "item.ludomania.casino_chip.desc": "Currency of all spins. 1 emerald = 8 chips.",
+  "item.ludomania.lootbox": "Surprise Lootbox",
+  "item.ludomania.lootbox.desc": "Right-click to open. What's inside? Yes.",
+  "container.ludomania.slot_machine": "Slot Machine",
+  "container.ludomania.wheel_of_fortune": "Wheel of Fortune",
+  "ludomania.not_enough_chips": "Not enough chips!",
+  "ludomania.win": "+%d chips! Spin again!",
+  "ludomania.lose": "Missed. The house always wins.",
+  "ludomania.lose_streak": "Losing streak: x%d... the universe presses down",
+  "ludomania.jackpot": "★★★ JACKPOT ★★★",
+  "ludomania.lootbox.chips": "+%d chips! Modest but nice.",
+  "ludomania.lootbox.emeralds": "Emeralds! The bank approves.",
+  "ludomania.lootbox.diamond": "DIAMOND! One more spin?",
+  "ludomania.lootbox.golden_apple": "Golden apple. Healthy and thrilling.",
+  "ludomania.lootbox.trip": "TRIP: reality is melting...",
+  "ludomania.lootbox.nothing": "Nothing. Even the box is laughing.",
+  "ludomania.lootbox.fake_jackpot": "Fake jackpot: 64 chips and slight confusion."
+}

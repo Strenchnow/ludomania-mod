@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CHC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "ludomania:casino_chip"
+    },
+    "H": {
+      "item": "minecraft:chest"
+    }
+  },
+  "result": {
+    "id": "ludomania:lootbox",
+    "count": 1
+  }
+}

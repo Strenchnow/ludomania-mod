@@ -1,0 +1,8 @@
+{
+  "slot_spin": {"sounds": [{"name": "ludomania:slot_spin"}]},
+  "slot_win": {"sounds": [{"name": "ludomania:slot_win"}]},
+  "slot_lose": {"sounds": [{"name": "ludomania:slot_lose"}]},
+  "wheel_spin": {"sounds": [{"name": "ludomania:wheel_spin"}]},
+  "jackpot": {"sounds": [{"name": "ludomania:jackpot"}]},
+  "lootbox_open": {"sounds": [{"name": "ludomania:lootbox_open"}]}
+}

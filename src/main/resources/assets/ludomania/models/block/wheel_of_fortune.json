@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "ludomania:block/wheel_of_fortune"
+  }
+}

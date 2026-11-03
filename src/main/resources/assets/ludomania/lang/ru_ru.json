@@ -1,0 +1,23 @@
+{
+  "itemGroup.ludomania": "Ludomania",
+  "block.ludomania.slot_machine": "Слот-машина «Крутобан»",
+  "block.ludomania.wheel_of_fortune": "Колесо удачи",
+  "item.ludomania.casino_chip": "Казино-фишка",
+  "item.ludomania.casino_chip.desc": "Валюта всех круток. 1 изумруд = 8 фишек.",
+  "item.ludomania.lootbox": "Лутбокс «Сюрприз»",
+  "item.ludomania.lootbox.desc": "ПКМ — открыть. Что внутри? Да.",
+  "container.ludomania.slot_machine": "Слот-машина",
+  "container.ludomania.wheel_of_fortune": "Колесо удачи",
+  "ludomania.not_enough_chips": "Не хватает фишек!",
+  "ludomania.win": "+%d фишек! Крути ещё!",
+  "ludomania.lose": "Мимо. Банк всегда выигрывает.",
+  "ludomania.lose_streak": "Серия поражений: x%d... вселенная давит",
+  "ludomania.jackpot": "★★★ ДЖЕКПОТ ★★★",
+  "ludomania.lootbox.chips": "+%d фишек! Скромно, но приятно.",
+  "ludomania.lootbox.emeralds": "Изумруды! Банк одобряет.",
+  "ludomania.lootbox.diamond": "АЛМАЗ! Крутани ещё один?",
+  "ludomania.lootbox.golden_apple": "Золотое яблоко. Полезно и азартно.",
+  "ludomania.lootbox.trip": "ТРИПП: реальность расползается...",
+  "ludomania.lootbox.nothing": "Пусто. Даже коробка смеётся.",
+  "ludomania.lootbox.fake_jackpot": "Фейк-джекпот: 64 фишки и лёгкое помутнение."
+}

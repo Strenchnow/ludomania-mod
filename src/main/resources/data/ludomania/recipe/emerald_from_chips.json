@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ludomania:casino_chip"
+    },
+    {
+      "item": "ludomania:casino_chip"
+    },
+    {
+      "item": "ludomania:casino_chip"
+    },
+    {
+      "item": "ludomania:casino_chip"
+    },
+    {
+      "item": "ludomania:casino_chip"
+    },
+    {
+      "item": "ludomania:casino_chip"
+    },
+    {
+      "item": "ludomania:casino_chip"
+    },
+    {
+      "item": "ludomania:casino_chip"
+    }
+  ],
+  "result": {
+    "id": "minecraft:emerald",
+    "count": 1
+  }
+}

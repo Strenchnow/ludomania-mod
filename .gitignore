@@ -1,0 +1,24 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# Запускаемые конфигурации (run dirs от ModDevGradle)
+run/
+runs/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+bin/
+
+# ОС
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
