@@ -4,6 +4,7 @@ import com.ludomania.items.ChipHelper;
 import com.ludomania.net.TripPayload;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
@@ -27,7 +28,7 @@ public final class LootboxLogic {
         RandomSource random = player.getRandom();
         int roll = random.nextInt(100);
 
-        Component message;
+        MutableComponent message;
         if (roll < 45) {
             // 45%: горсть фишек
             int chips = 6 + random.nextInt(17);
@@ -49,7 +50,7 @@ public final class LootboxLogic {
             // 8%: порция триппа
             player.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 400, 1));
             player.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 1200, 0));
-            player.addEffect(new MobEffectInstance(MobEffects.SPEED, 600, 1));
+            player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 1));
             if (player instanceof ServerPlayer serverPlayer) {
                 PacketDistributor.sendToPlayer(serverPlayer, new TripPayload(0.7F, 20, 0));
             }

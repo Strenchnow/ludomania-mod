@@ -48,7 +48,7 @@ public final class StreakEffects {
             addEffect(player, MobEffects.MOVEMENT_SPEED, 600, Math.min(data.getWinStreak() / 3, 2));
         }
         if (data.getWinStreak() >= 5) {
-            addEffect(player, MobEffects.JUMP_BOOST, 600, 1);
+            addEffect(player, MobEffects.JUMP, 600, 1);
             sendTrip(player, 0.35F, 15, data.getWinStreak());
         }
         if (data.getWinStreak() >= 7) {

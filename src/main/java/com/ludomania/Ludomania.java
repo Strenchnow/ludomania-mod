@@ -11,7 +11,7 @@ import com.ludomania.registry.ModSounds;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.loading.FMLEnvironment;
-import net.neoforged.neoforge.api.distmarker.Dist;
+import net.neoforged.api.distmarker.Dist;
 import net.neoforged.neoforge.common.NeoForge;
 
 /**

@@ -117,7 +117,7 @@ public final class WheelLogic {
 
         if (roll.trip) {
             player.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 500, 1));
-            player.addEffect(new MobEffectInstance(MobEffects.SPEED, 500, 1));
+            player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 500, 1));
             PacketDistributor.sendToPlayer(player, new TripPayload(0.8F, 22, streak.getWinStreak()));
         }
 
