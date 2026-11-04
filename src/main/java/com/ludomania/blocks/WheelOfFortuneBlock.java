@@ -5,6 +5,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.MenuProvider;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.SimpleMenuProvider;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
@@ -22,11 +23,12 @@ public class WheelOfFortuneBlock extends Block {
 
     @Override
     protected InteractionResult useWithoutItem(BlockState state, Level level, BlockPos pos, Player player, BlockHitResult hit) {
-        if (!level.isClientSide) {
+        if (!level.isClientSide && player instanceof ServerPlayer serverPlayer) {
             MenuProvider menuProvider = new SimpleMenuProvider(
                 (windowId, inventory, p) -> new WheelOfFortuneMenu(windowId, inventory, pos),
                 Component.translatable("container.ludomania.wheel_of_fortune"));
-            player.openMenu(menuProvider);
+            // без extraData буфер на клиенте придёт null — нужно писать позицию блока
+            serverPlayer.openMenu(menuProvider, buf -> buf.writeBlockPos(pos));
         }
         return InteractionResult.sidedSuccess(level.isClientSide);
     }
